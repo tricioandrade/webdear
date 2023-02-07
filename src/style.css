@@ -117,7 +117,7 @@ a.navbar-brand i {
     border-top: 2px solid transparent;
     background:#333;
     border-bottom: 3px solid transparent;
-    letter-spacing:3px;
+    letter-spacing:2px;
 }
 .navbar-nav .nav-item a:hover {
     border-bottom-color:#fefefe;
@@ -146,7 +146,7 @@ a.navbar-brand i {
 }
 
 #homeBackground .welcome p {
-    letter-spacing:7px;
+    letter-spacing:px;
     font-size:20px;
     color:var(--dark);
     border-bottom:3px solid var(--dark);
@@ -159,7 +159,7 @@ a.navbar-brand i {
 
 #homeBackground .welcome .btn:first-child {
     margin: 0 0 0 30px;
-    background:crimson;
+    background:#333;
     color:#fefefe;
 }
 

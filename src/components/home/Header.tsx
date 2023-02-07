@@ -18,7 +18,7 @@ const Header = () => {
                            <Nav.Item><Link to='#header' className='nav-link'><i className='fa fa-home'/> Home</Link></Nav.Item>
                            <Nav.Item><Link to='#header' className='nav-link'><i className='fa fa-question-circle'/> Sobre</Link></Nav.Item>
                            <Nav.Item><Link to='#header' className='nav-link'><i className='fa fa-phone-alt'/> Contacto</Link></Nav.Item>
-                           <Nav.Item><Link to='#header' className='nav-link'><i className='fa fa-layer-group'/> Portfólio</Link></Nav.Item>
+                           <Nav.Item><Link to='#header' className='nav-link'><i className='fa fa-store'/> Serviços</Link></Nav.Item>
                         </Nav>
                     </Navbar.Collapse>
                 </Container>
