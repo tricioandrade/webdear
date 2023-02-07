@@ -129,6 +129,7 @@ a.navbar-brand i {
     background-size: cover !important;
     filter: drop-shadow(8px 8px 10px #222) grayscale(60%) brightness(0.97) hue-rotate(180deg);
     overflow: hidden;
+    
 }
 
 #homeBackground .welcome {
@@ -148,7 +149,7 @@ a.navbar-brand i {
 #homeBackground .welcome p {
     letter-spacing:px;
     font-size:20px;
-    color:var(--dark);
+    color:#ffff;
     border-bottom:3px solid var(--dark);
     padding:3px 0;
 }
