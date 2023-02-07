@@ -1,5 +1,6 @@
 import React from 'react';
 import Welcome from './Welcome';
+import ShortCards from './ShortCards';
 // import Short from './Short';
 // import ShortCards from './ShortCards';
 // import News from './News';
@@ -10,6 +11,7 @@ const Home = () => {
     return (
         <>
             <Welcome />
+            <ShortCards/>
         </>
     );
 }

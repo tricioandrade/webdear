@@ -14,15 +14,13 @@ const Welcome = () => {
             <Container className="welcome">
                 <Row>
                     <Col sm={12} lg={8} >
-                        <p>Bem-vindo ao lar</p>
+                        <p>Bem-vindo a WebDear</p>
                         <h1>
                             O seu futuro <br/>começa aqui 
                         </h1>    
-                        <p>Lorem ipsum dolor adipisicing elit.
-                            Tenetur modi  in quidem?</p>
                     </Col>
                     <Col lg={8}>
-                        <div className='d-grid gap-2 d-md-block text-end'>
+                        <div className='d-grid gap-2 d-md-block text-start'>
                             <Link to='#form' className='btn btn-primary'><i className='fa fa-shopping-bag'/> Encomendar</Link>
                             <Link to='#form' className='btn btn-primary'><i className='fa fa-layer-group'/> Portifólio</Link>
                         </div>
