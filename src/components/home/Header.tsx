@@ -12,7 +12,6 @@ const Header = () => {
                         <Nav className="me-4 justify-content-start">
                             <Nav.Item><Link to='#header' className='nav-link'><i className='fa fa-envelope'/> webdear@outlook.pt</Link></Nav.Item>
                             <Nav.Item><Link to='#header' className='nav-link'><i className='fa fa-phone-square'/> +244 952 991 773</Link></Nav.Item>
-                            <Nav.Item><Link to='#header' className='nav-link'><i className='fab fa-'/></Link></Nav.Item>
                         </Nav>
                         <Nav className="me-4 justify-content-end">
                             <Nav.Item><Link to='#header' className='nav-link'><i className='fab fa-facebook'/></Link></Nav.Item>
@@ -28,7 +27,7 @@ const Header = () => {
                     <img src={logo} alt='webdear' /> 
                     </Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />        
-                    <Navbar.Collapse id="basic-navbar-nav" className='d-flex justify-content-end'>
+                    <Navbar.Collapse id="basic-navbar-nav" className='d-lg-flex justify-content-end'>
                         <Nav className="me-4 justify-content-end">
                            <Nav.Item><Link to='#header' className='nav-link'><i className='fa fa-home'/> Home</Link></Nav.Item>
                            <Nav.Item><Link to='#header' className='nav-link'><i className='fa fa-question-circle'/> Sobre</Link></Nav.Item>

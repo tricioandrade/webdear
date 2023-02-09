@@ -3,18 +3,17 @@ import { Card, Col, Container, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 
 
+
 const ShortCards = () => {
 
 
-
-
     return (
-        <section  id="shortCards">
+        <section data-aos="fade-up" id="shortCards">
             <Container>
                <Row className='d-flex aligm-items-stretch'>
                <Col lg={6} className='service-box text-start'>
                     <div className="text-box">
-                        <h3>Temos os melhores<br/> seviços pra si</h3>
+                        <h2>Temos os melhores<br/> seviços pra si</h2>
                         <p>
                             Prestamos seviços que impulcionam sua marca a ir além com baixo custo e alta qualidade. Sinta-se em casa para apreciá-los.
                         </p>
@@ -36,27 +35,27 @@ const ShortCards = () => {
                             <i className="fa fa-video" />
                         </span>
                         <span className="text col-12">
-                           <p> Edição de vídeo.</p>
+                           <p> Edição de vídeo</p>
                         </span>
                     </div>
                 </Col>
                 <Col lg={3} className='service-box'>
                     <div className="box col-12 d-flex flex-column">
                         <span className="icon col-12 text-end">
-                            <i className="fa fa-globe" />
+                            <i className="fa fa-image" />
                         </span>
                         <span className="text col-12 text-sta">
-                            <p>Lorem, ipsum dolor.</p>
+                            <p>Edição de imagens</p>
                         </span>
                     </div>
                 </Col>
                 <Col lg={3} className='service-box'>
                     <div className="box col-12 d-flex flex-column">
                         <span className="icon col-12 text-end">
-                            <i className="fa fa-video" />
+                            <i className="fa fa-layer-group" />
                         </span>
                         <span className="text col-12">
-                           <p> Lorem, ipsum dolor.</p>
+                           <p> Criação de flyers</p>
                         </span>
                     </div>
                 </Col>
@@ -64,20 +63,20 @@ const ShortCards = () => {
                 <Col lg={3} className='service-box'>
                     <div className="box col-12 d-flex flex-column">
                         <span className="icon col-12 text-end">
-                            <i className="fa fa-globe" />
+                            <i className="fa fa-money-bill-alt" />
                         </span>
                         <span className="text col-12 text-sta">
-                            <p>Lorem, ipsum dolor.</p>
+                            <p>Patrocínio, Tráfego pago</p>
                         </span>
                     </div>
                 </Col>
                 <Col lg={3} className='service-box'>
                     <div className="box col-12 d-flex flex-column">
                         <span className="icon col-12 text-end">
-                            <i className="fa fa-video" />
+                            <i className="fa fa-building" />
                         </span>
                         <span className="text col-12">
-                           <p> Lorem, ipsum dolor.</p>
+                           <p> Criação de logotipo</p>
                         </span>
                     </div>
                 </Col>
