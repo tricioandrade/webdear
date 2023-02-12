@@ -178,7 +178,7 @@ a.navbar-brand img {
 }
 
 .carousel {
-    filter: brightness(.97) saturate(.9) grayscale(48%) ;
+/*     filter: brightness(.97) saturate(.9) ; */
     position:relative;
     overflow:hidden;
 }
@@ -202,7 +202,7 @@ a.navbar-brand img {
     background-size: cover !important;
     overflow: hidden;
     position: relative;    
-    /*     animation: growDown 300ms ease-in-out forwards; */
+/*         animation: growDown 300ms ease-in-out forwards; */
 }
 
 .carousel .carousel-caption {

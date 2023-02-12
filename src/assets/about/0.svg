@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="135.20572mm"
+   height="153.77264mm"
+   viewBox="0 0 135.20572 153.77264"
+   version="1.1"
+   id="svg5"
+   xml:space="preserve"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"><defs
+     id="defs2"><linearGradient
+       id="linearGradient2128"><stop
+         style="stop-color:#00fafa;stop-opacity:1;"
+         offset="0"
+         id="stop2126" /></linearGradient><clipPath
+       clipPathUnits="userSpaceOnUse"
+       id="clipPath2122"><path
+         id="path2124"
+         style="stroke:#00fafa;stroke-width:4.64423;stroke-dasharray:none;stroke-opacity:1"
+         d="m -160.434,172.37335 c -37.3355,0.19797 -29.01186,-39.71405 -67.96035,-67.24346 -30.48894,-21.550048 29.90795,-67.762393 67.24346,-67.960358 37.3355,-0.197963 31.50315,56.901964 67.960353,67.243468 35.918895,10.1888 -29.907953,67.76239 -67.243463,67.96035 z" /></clipPath><linearGradient
+       xlink:href="#linearGradient2128"
+       id="linearGradient2155"
+       gradientUnits="userSpaceOnUse"
+       x1="-236.71172"
+       y1="104.77155"
+       x2="-82.804955"
+       y2="104.77155" /></defs><g
+     id="layer1"
+     transform="translate(-29.914221,-93.417005)"><image
+       width="203.82468"
+       height="137.46822"
+       preserveAspectRatio="none"
+       xlink:href="../../../../../../Pictures/Saved%20Pictures/tablet-coffee.jpg"
+       id="image17"
+       x="-261.56662"
+       y="36.102356"
+       clip-path="url(#clipPath2122)"
+       transform="rotate(-89.696202,1.8266751,8.2174315)"
+       style="fill:none;stroke:url(#linearGradient2155);stroke-width:4.64423;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1" /></g></svg>
