@@ -1,6 +1,6 @@
 import React from 'react';
 import Welcome from './Welcome';
-import ShortCards from './ShortCards';
+import Services from './Services';
 import CarouselSlide from './CarouselSlide';
 // import Short from './Short';
 // import ShortCards from './ShortCards';
@@ -13,7 +13,7 @@ const Home = () => {
         <>
             {/* <Welcome /> */}
             <CarouselSlide/>
-            <ShortCards/>
+            <Services/>
         </>
     );
 }

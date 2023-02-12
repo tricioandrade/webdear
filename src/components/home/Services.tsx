@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 
 
 
-const ShortCards = () => {
+const Services = () => {
 
 
     return (
-        <section data-aos="fade-up" id="shortCards">
+        <section data-aos="fade-up" id="services">
             <Container>
                <Row className='d-flex aligm-items-stretch'>
                <Col lg={6} className='service-box text-start'>
@@ -19,7 +19,7 @@ const ShortCards = () => {
                         </p>
                     </div>
                 </Col>
-                <Col lg={3} className='service-box'>
+                <Col lg={3} className='service-box d-flex justify-content-baseline'>
                     <div className="box col-12 d-flex flex-column">
                         <span className="icon col-12 text-end">
                             <i className="fa fa-globe" />
@@ -85,4 +85,4 @@ const ShortCards = () => {
         </section>
     )
 }
-export default ShortCards;
+export default Services;

@@ -2,7 +2,7 @@
     --yellow: #ffde22;
     --yellowTransparent: #ffde22a3;
     --darkTransparent: rgb(0 51 51 / 26%);
-    --dark: #000000;
+    --dark: #212529;
     --white: #fefefe;
     --hover: #0bffdb;
     --drakBackground: rgb(0 51 51 / 59%);
@@ -27,7 +27,33 @@ body {
 hr {
     border: 2px solid var(--yellow);
 }
+html {
+  overflow-y: scroll;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
 
+html::-webkit-scrollbar, main::-webkit-scrollbar {
+  width: 8px;
+  height: 0px;
+}
+
+html::-webkit-scrollbar-track-piece, main::-webkit-scrollbar-track-piece {
+  background: #ffffff;
+}
+
+html::-webkit-scrollbar-thumb:vertical, main::-webkit-scrollbar-thumb:vertical {
+  height: 15px;
+  -webkit-background-color: var(--dark);
+  -ms-background-color: var(--dark);
+  background-color: var(--dark);
+}
+
+html::-webkit-scrollbar-thumb:horizontal, main::-webkit-scrollbar-thumb:horizontal {
+  width: 15px;
+  -webkit-background-color: var(--dark);
+  background-color: var(--dark);
+}
 h2, h3, h4, h5 {
     font-family: var(--globalFont);
     text-transform: uppercase;
@@ -35,11 +61,12 @@ h2, h3, h4, h5 {
 }
 
 .container {
+    width:75%;
 }
 
 .btn, .btn.btn-link, form .btn {
     border-radius: 0;
-    color: var(--hover);
+    color: var(--white);
     font-family: var(--globalFont);
     padding: 6px 45px !important;
     letter-spacing: 2px;
@@ -48,8 +75,9 @@ h2, h3, h4, h5 {
 }
 
 .btn:hover {
-    background: var(--yellow);
+    background: var(--hover);
     border-color: #fefefe;
+    color:var(--dark)
 }
 
 header {
@@ -89,30 +117,31 @@ header .navbar-menu:last-child {
     z-index: 10;
     background: var(--transparent);
     /*     background: #000; */
-    box-shadow: 0px 10px 10px #222;
-    background: linear-gradient(45deg, rgb(0 0 0 / 28%), rgb(0 0 0 / 26%), rgb(0 0 0 / 32%));
+    box-shadow: 0px 2px 3px #000;
+    background:var(--dark);
+/*     background: linear-gradient(45deg, rgb(0 0 0 / 28%), rgb(0 0 0 / 26%), rgb(0 0 0 / 32%)); */
 }
 
 header .navbar-menu:last-child:before {
-    background: linear-gradient(45deg, #f2f2f27d, #f2f2f27d, #f2f2f27d);
+/*     background: linear-gradient(45deg, #f2f2f27d, #f2f2f27d, #f2f2f27d); */
     content:'';
     position:absolute;
-    width:10.2%;
+/*     width:10%; */
     height:100%;
     bottom:0;
     left:0;
-    background:#fefefef0;
+/*     background:#fefefef0; */
     z-index:-1;
 }
 
 header .navbar-menu:last-child:after {
     content:'';
     position:absolute;
-    width:89.8%;
+    width:50%;
     height:100%;
     bottom:0;
     right:0;
-    background:rgb(51 51 51 / 88%);
+    background:#212529;
     z-index:-1;
 }
 
@@ -149,33 +178,46 @@ a.navbar-brand img {
 }
 
 .carousel {
-    filter: brightness(.97) saturate(.9) grayscale(48%) hue-rotate(180deg);
+    filter: brightness(.97) saturate(.9) grayscale(48%) ;
+    position:relative;
+    overflow:hidden;
 }
+
+.carousel .carousel-item:before {
+    content:'';
+    position:absolute;
+    width:100%;
+    height:100%;
+    top:0;
+    left:0;    
+    background: #22222299;
+    z-index:1;
+/*     transform:skewY(-10deg); */
+}
+
 
 .carousel .carousel-item {
     height: 100vh !important;
     /*     background-attachment:fixed !important; */
     background-size: cover !important;
     overflow: hidden;
-    position: relative;
+    position: relative;    
     /*     animation: growDown 300ms ease-in-out forwards; */
 }
 
 .carousel .carousel-caption {
-    width: 40%;
-    left:19%;
     bottom:1em;
     filter: none;
     text-transform: uppercase;
-    z-index: 31;
-    text-align: left;
+/*     text-align: left; */
+    z-index:3;
+    color: var(--white);
+    
 }
 
 
 .carousel .carousel-caption h2 {
     font-size: 6em;
-    color: var(--white);
-    background:#333333a6;
     padding:1rem;
     border-radius:1rem;
 }
@@ -183,64 +225,67 @@ a.navbar-brand img {
 .carousel .carousel-caption p {
     letter-spacing: 6px;
     font-size: 20px;
-    color: var(--white);
-    background:#333333a6;
     padding:1rem;
     border-radius:1rem;
 }
 
 .carousel .carousel-caption .btn {
-    background:#333333a6;
-    color: var(--white);
-    float: right;
+/*     color: var(--white); */
 }
 
 .carousel .carousel-indicators, .carousel .carousel-control-next, .carousel .carousel-control-prev {
     display: none;
 }
-
+/* 
 .carousel .btn:last-child:hover {
     color: var(--dark);
     background-color: transparent;
     border-color: var(--dark);
 }
-
-#shortCards {
+ */
+#services {
     color: var(--white);
     padding: 3rem 0;    
 }
 
-#shortCards p {
+#services p {
+    vertical-align:baseline;
     font-family: var(--roboto);
 }
 
-#shortCards .service-box .text-box {
+#services .service-box .text-box {
     margin:15px 0;
     
 }
 
 
-#shortCards .service-box .box {
-    margin:15px 0 15px;
+#services .service-box {
+    position:relative;
+/*     background:aliceblue; */
+    margin:15px auto;
+}
+
+#services .service-box .box {
+    height:100%;
     padding: 30px;
     background: #222;
     border-radius: 10px;
     border:1px solid var(--hover);
     box-shadow: 10px 10px #fefefe;
-    filter:drop-shadow(10px 10px var(--hover))
+    filter:drop-shadow(10px 10px var(--hover));
+}
+
+#services .service-box .box .icon {
+    padding: 0 0 10% 0;
     
 }
 
-#shortCards .service-box .box .icon {
-    padding: 0 0 10% 0;
-}
-
-#shortCards .service-box .box i {
+#services .service-box .box i {
     font-size: 2.3em;
     color: var(--hover);
 }
 
-#shortCards .service-box .box p {
+#services .service-box .box p {
     font-size: 1.3em;
     color: var(--white);
     font-family: inherit;
@@ -341,12 +386,12 @@ a.navbar-brand img {
         display: none;
     }
 
-    #shortCards .card, #news .card {
+    #services .card, #news .card {
         margin: 10px auto;
         padding: 40px !important;
     }
 
-    #news .card .card-title, #shortCards .card .card-title, #news .card .card-title, #news .card p, #shortCards .card p {
+    #news .card .card-title, #services .card .card-title, #news .card .card-title, #news .card p, #services .card p {
         text-align: center !important;
     }
 }
