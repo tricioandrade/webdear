@@ -3,6 +3,7 @@ import Welcome from './Welcome';
 import Services from './Services';
 import CarouselSlide from './CarouselSlide';
 import About from './About';
+import Portifolio from './Portifolio';
 // import Short from './Short';
 // import ShortCards from './ShortCards';
 // import News from './News';
@@ -16,6 +17,7 @@ const Home = () => {
             <CarouselSlide/>
             <Services/>
             <About/>
+            <Portifolio/>
         </>
     );
 }

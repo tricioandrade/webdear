@@ -52,7 +52,7 @@ const CarouselSlide = () => {
                         <Carousel.Caption>
                             <p>Bem-vindo a WebDear</p>
                             <h2>O seu futuro <br/>começa aqui</h2>
-                            <p className='d-sm-none d-lg-block'> { item.caption.text } </p>
+                            <p className='d-sm-none d-lg-block'>Um novo começo o aguarda </p>
                             <Link to='#' className='btn btn-link'>Saber mais</Link>
                         </Carousel.Caption>
                     </Carousel.Item>
