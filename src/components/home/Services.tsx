@@ -17,7 +17,7 @@ const Services = () => {
                         <h4>Serviços</h4>
                         <h2>Temos os melhores<br/> seviços pra si</h2>
                         <p>
-                            Prestamos seviços que impulcionam sua marca a ir além com baixo custo e alta qualidade. Sinta-se em casa para apreciá-los.
+                            Prestamos serviços que impulcionam sua marca a ir além com baixo custo e alta qualidade. Sinta-se em casa para apreciá-los.
                         </p>
                     </div>
                 </Col>
